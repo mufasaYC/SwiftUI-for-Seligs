@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_for_SeligsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(alertManager: .init())
         }
     }
 }
